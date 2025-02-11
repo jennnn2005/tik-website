@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Toko Online</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <!-- Menyertakan file JavaScript -->
+  </head>
+  <body>
+    <header>
+      <h1>Toko Roti Fourge Bagel</h1>
+      <p>Belanja Mudah dan Cepat!</p>
+    </header>
+
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Produk</a>
+      <a href="#">Kontak</a>
+    </nav>
+    
+    <div class="container">
+        <div class="logo">
+          <img src="Logo.png" alt="Logo Roti Bagel" />
+        </div>
+
+    <section class="product-container">
+      <div class="product-card">
+        <img src="Matcha.jpg" alt="Produk 1" />
+        <h3>Bagel Roti Matcha</h3>
+        <p>Roti dengan Rasa Matcha yang Legit.</p>
+        <p class="price">Rp 13.000</p>
+        <button class="buy-btn" onclick="showMessage()">Beli Sekarang</button>
+        <!-- Menambahkan event onClick -->
+        <p class="message"></p>
+        <!-- Menampilkan pesan -->
+      </div>
+
+      <div class="product-card">
+        <img src="Gandum.jpg" alt="Produk 2" />
+        <h3>Bagel Roti Gandum</h3>
+        <p>Roti dengan rasa original dan sehat.</p>
+        <p class="price">Rp 12.000</p>
+        <button class="buy-btn" onclick="showMessage()">Beli Sekarang</button>
+        <!-- Menambahkan event onClick -->
+        <p class="message"></p>
+        <!-- Menampilkan pesan -->
+      </div>
+
+      <div class="product-card">
+        <img src="Coklat.jpg" alt="Produk 3" />
+        <h3>Bagel Roti Coklat</h3>
+        <p>Roti dengan rasa coklat pilihan.</p>
+        <p class="price">Rp 15.000</p>
+        <button class="buy-btn" onclick="showMessage()">Beli Sekarang</button>
+        <!-- Menambahkan event onClick -->
+        <p class="message"></p>
+        <!-- Menampilkan pesan -->
+      </div>
+    </section>
+
+    <footer>
+      <p>TOKO ROTI BAGEL</p>
+    </footer>
+  </body>
+</html>
